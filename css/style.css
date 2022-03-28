@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 10px;
+}
+header{
+    background-image: url(../images/Background-slider2-1-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+.navbar{
+    height:75px;
+    padding-top: 40px;
+}
+.navbar .navbar-brand img{
+    width: 165px;
+    height: 70px;
+}
+.navbar-nav .nav-link{
+    color: #FFF;
+    margin-right: 20px;
+    font-size: 1.1rem;
+}
+header .container{
+    height: calc(100% - 110px) !important;
+    display: flex;
+    align-items: center;
+}
+.main-header h1{
+    color: #FFF;
+    line-height: 1.2;
+    font-size: 2.6rem;
+    text-transform: capitalize;
+}
+
+/* start our-partner section */
+.our-partner{
+    padding: 40px;
+}
+.slick-dots li{
+    width: 15px !important;
+}
+/* end our-partner section */
+/* start our projects */
+.projects{
+    padding: 100px;
+}
+
+.pro-box img{
+    height: 237px;
+}
+.pro-box .pro-title{
+    padding-top: 20px;
+}
+.pro-box .pro-title h3{
+    font-size: 1.3rem;
+}
+.pro-box .inner-box .more{
+    display: flex;
+    justify-content: end;
+    padding: 10px 15px
+}
+.pro-box .inner-box .more a{
+    font-size: 1rem;
+    color: #000;
+    font: 500;
+    text-decoration: none;
+    margin-right: 10px;
+}
+/* end our projects */
+/* start about us section */
+.about-us h6{
+    font-size: .9rem;
+    color: #666;
+}
+.about-us .about-box{
+    box-shadow: 0px 0px 1px #e7e7e7 !important;
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+    padding: 25px 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.about-us .about-box i{
+    font-size: 3rem;
+    color: tomato;
+    margin-bottom: 1.6rem;
+}
+.about-us .about-box h4{
+    font-size: 18px;
+    font-weight: 600;
+}
+.about-us .about-box p{
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 26px;
+    color: #666;
+    font-weight: 400;
+}
+/* end about us section */
+/* start popular section */
+.Popular{
+    background-color: #FDFCFC;
+}
+.popular-box{
+    background-color: #FFF;
+    box-shadow: 0px 0px 6px #e7e7e7
+}
+.img-bg img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.popular-title h4{
+    font-size: 20px;
+    margin: 0;
+    color: #666;
+}
+.popular-title span{
+    font-size: .9rem;
+    color: #666;
+    font-weight: 500;
+}
+.popular-title span i{
+    color: #000;
+}
+.popular-details{
+    margin-top: 13px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+.popular-details-box{
+    margin-bottom: 10px;
+}
+.popular-details .popular-details-box i{
+    font-size: 17px;
+    margin-right: 7px;
+    color: #000;
+}
+.popular-price{
+    padding: 15px 0 0;
+    font-size: .9rem;
+    color: #666;
+}
+.popular-price span{
+    font-size: 1.5rem;
+}
+.popular-price span:first-child{
+    color: #000;
+}
+/* end popular section */
+/* start contact section */
+.contact{
+    background-color: #fdfcfc;
+}
+.form-contact{
+    padding-top: 50px;
+}
+.input-box{
+    /* margin-bottom: 20px; */
+    padding: 20px 20px 10px;
+}
+.input-box label{
+    font-size: 1rem;
+}
+.input-box label span{
+    color: red;
+}
+.form-contact button{
+    width: 75px;
+    height: 30px;
+    margin-left: 20px;
+    border: none;
+    background-color: tomato;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+/* end contact section */
+/* start footer */
+.footer{
+    padding-top: 100px;
+    background-color: #000;
+    color: #B1B1B1;
+} 
+.footer h4{
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+.footer ul{
+    padding: 0;
+    margin: 0;
+}
+.footer .social-icons{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer .social-icons li{
+    padding-right: 30px;
+}
+.footer .address{
+    font-size: 1rem;
+}
+.footer .address li i{
+    margin-right: 5px;
+}
+.footer ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.footer ul .mail{
+    font-size: 1rem;
+}
+.footer ul li a{
+    color: #B1B1B1;
+    text-decoration: none;
+    font-size: 1rem;
+}
+footer{
+    font-size: 1.1rem;
+    padding: 40px 0;
+}
+/* end footer */
